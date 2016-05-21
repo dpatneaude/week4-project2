@@ -38,13 +38,17 @@ $(document).ready(function(){
     }
   });
 
-//5. When clicked show only cats 10+lbs. //need to determine a variable to sort out each weights
-  var catRows = $('#catTable tr');
-  $("#HideFatCats").click(function(){
-    var fatCats = catRows.filter('tr fatCat').hide();
-  });
+// 5. When clicked show only cats 10+lbs. //need to determine a variable to sort out each weights
+  // var catRows = $('#table-striped cats');
+  // $("#HideFatCats").click(function(){
+  //   var fatCats = catRows.filter('tr fatCat').hide(){
+  //     var tr => 10;
+  //   }
+  //   // tr var = td < 10lbs;
+  // });
 
-  $()
+  // $()
+
 
 //11. Create buttons that add and remove list items.
   var counter = 0;
